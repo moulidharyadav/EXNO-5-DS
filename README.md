@@ -31,7 +31,7 @@ plt.ylabel('y-axis')
 plt.title('Two lines on same graph')
 plt.legend()
 ~~~
-![image](https://github.com/user-attachments/assets/e37731ae-9f7e-4094-84b0-51057c8216d2)
+![Screenshot 2024-10-23 101407](https://github.com/user-attachments/assets/cb3bec44-f73b-466b-821e-c91b96c2b175)
 ~~~
 x=[1,2,3,4,5,6]
 y=[2,4,1,5,2,6]
@@ -42,7 +42,7 @@ plt.xlabel('x-axis')
 plt.ylabel('y-axis')
 plt.title('Some cool customization')
 ~~~
-![image](https://github.com/user-attachments/assets/677c4171-7ae3-431e-85c6-0a177e03a82b)
+![Screenshot 2024-10-23 101439](https://github.com/user-attachments/assets/790905fb-050c-4351-86b3-96a214c4294b)
 ~~~
 years=range(2000, 2012)
 apples=[0.895, 0.91, 0.919, 0.926, 0.929, 0.931, 0.934, 0.936, 0.937, 0.9375, 0.9372, 0.939]
@@ -54,7 +54,7 @@ plt.ylabel('Yield (tons per hectre)')
 plt.title('Crops yield in Kento')
 plt.legend(['Apples', 'Oranges'])
 ~~~
-![image](https://github.com/user-attachments/assets/c7b647c8-8f9e-4a85-9498-4e87b03c3467)
+![Screenshot 2024-10-23 101506](https://github.com/user-attachments/assets/67137c40-c5c2-440a-a1d0-d672638ef19b)
 ~~~
 plt.subplot(2,2,1)
 plt.plot(x,y,'r--')
@@ -65,19 +65,19 @@ plt.plot(x,y,'bo')
 plt.subplot(2,2,4)
 plt.plot(x,y,'go')
 ~~~
-![image](https://github.com/user-attachments/assets/73b1735d-9a5b-4ff6-8f7f-f38ab9b2af4b)
+![Screenshot 2024-10-23 101535](https://github.com/user-attachments/assets/fbd68a5f-619b-49ec-ab91-3183393639ae)
 ~~~
 import numpy as np
 np.pi
 ~~~
-![image](https://github.com/user-attachments/assets/32dbf630-219e-407b-92f8-ec14b9842192)
+![Screenshot 2024-10-23 101556](https://github.com/user-attachments/assets/4443771a-e863-4e07-be0f-2446304de462)
 ~~~
 x=np.arange(0,4 * np.pi, 0.1)
 y=np.sin(x)
 plt.title('Sine Wave form')
 plt.plot(x,y,'g--', linewidth=3)
 ~~~
-![image](https://github.com/user-attachments/assets/5c894d84-0450-41cf-8a2d-b6a0107d7263)
+![Screenshot 2024-10-23 101620](https://github.com/user-attachments/assets/208c7ab4-44c8-4fd8-b691-8b5fb07ece4f)
 ~~~
 import numpy as np
 x=[1,2,3,4,5]
@@ -90,7 +90,7 @@ plt.plot(x,y1,color='red')
 plt.plot(x,y2,color='black')
 plt.legend(['y1','y2'])
 ~~~
-![image](https://github.com/user-attachments/assets/638c28d0-aec3-4733-afc1-f70288ed85d6)
+![Screenshot 2024-10-23 101701](https://github.com/user-attachments/assets/a201dd20-dd0d-49a6-b314-79ba38221ee1)
 ~~~
 plt.stackplot(x,y1,y2,y3,labels=['Line1','Line2', 'Line3'])
 plt.legend(loc='upper left')
@@ -98,7 +98,7 @@ plt.title('Stacked Line Chart')
 plt.xlabel('X-axis')
 plt.xlabel('Y-axis')
 ~~~
-![image](https://github.com/user-attachments/assets/e790adc8-571f-4e8c-87a4-0a0ced4c4733)
+![Screenshot 2024-10-23 101725](https://github.com/user-attachments/assets/c0c1d90e-df57-4772-8530-703395cb6d4e)
 ~~~
 x=[2,8,10]
 y=[11,16,9]
@@ -110,7 +110,7 @@ plt.title('Bar Graph')
 plt.xlabel('X-axis')
 plt.ylabel('Y-axis')
 ~~~
-![image](https://github.com/user-attachments/assets/4127253a-4129-45af-bd3c-dc265bd87f62)
+![Screenshot 2024-10-23 101806](https://github.com/user-attachments/assets/9721d47f-a059-4b03-b8bb-08ca1d197748)
 ~~~
 height=[10,24,36,40,5]
 names=['one','two','three','four','five']
@@ -121,7 +121,7 @@ plt.xlabel('x-axis')
 plt.ylabel('y-axis')
 plt.title('My bar chart!')
 ~~~
-![image](https://github.com/user-attachments/assets/151d8231-c701-4132-bff2-2b95198bd275)
+![Screenshot 2024-10-23 101829](https://github.com/user-attachments/assets/4c64d3d5-3b87-4002-91a3-d03cdcc4227e)
 ~~~
 ages=[2,5,70,40,30,45,50,45,43,40,44,60,7,13,57,80,19,77,32,21,20,40]
 range=(0,100)
@@ -131,18 +131,18 @@ plt.xlabel('age')
 plt.ylabel('no. of. people')
 plt.title('My Histogram')
 ~~~
-![image](https://github.com/user-attachments/assets/b5ac8600-8ba4-4181-a102-8f81a76ed491)
+![Screenshot 2024-10-23 101851](https://github.com/user-attachments/assets/c6bcddbd-af8c-4cb0-91c7-9939fbc1829a)
 ~~~
 x=[2,1,6,4,2,4,8,9,4,2,4,10,6,4,5,7,7,3,2,7,5,3,5,9,2,1]
 plt.hist(x,bins=10, color='blue',alpha=0.5)
 ~~~
-![image](https://github.com/user-attachments/assets/3dc76151-15a7-4520-8bfc-52c579145e8f)
+![Screenshot 2024-10-23 101913](https://github.com/user-attachments/assets/8ebc390e-e93b-48a7-9ca7-96484117decf)
 ~~~
 np.random.seed(0)
 data=np.random.normal(loc=0,scale=1,size=100)
 data
 ~~~
-![image](https://github.com/user-attachments/assets/7a3d177c-c976-4a8d-a11d-9be62aa7f666)
+![Screenshot 2024-10-23 101935](https://github.com/user-attachments/assets/30a3d46e-b6ed-462f-a4b4-2831a73c46df)
 ~~~
 fig,ax=plt.subplots()
 ax.boxplot(data)
@@ -150,7 +150,7 @@ ax.set_xlabel('Data')
 ax.set_ylabel('Values')
 ax.set_title('Box Plot')
 ~~~
-![image](https://github.com/user-attachments/assets/9a950f6d-bb1c-4194-9261-f5fb888f3900)
+![Screenshot 2024-10-23 101957](https://github.com/user-attachments/assets/554d93cc-bbdd-4b4d-8850-49ea9cb21983)
 ~~~
 activities=['eat','sleep','work','play']
 slices=[3,7,8,6]
@@ -158,7 +158,7 @@ colors=['r','y','g','b']
 plt.pie(slices,labels=activities,colors=colors,startangle=90,shadow=True,explode=(0,0,0.1,0),radius=1.2,autopct='%1.1f%%')
 plt.legend()
 ~~~
-![image](https://github.com/user-attachments/assets/2e094920-5945-4998-814e-5dd2b5d444ff)
+![Screenshot 2024-10-23 102020](https://github.com/user-attachments/assets/c01c117d-f3bd-403e-b4a1-9d3918a2fa00)
 ~~~
 labels='Python', 'C++', 'Ruby', 'Java'
 sizes=[215, 130, 245, 210]
@@ -167,7 +167,7 @@ explode=(0,0.4,0,0.5)
 plt.pie(sizes, explode=explode, labels=labels, colors=colors, autopct='%1.1f%%', shadow=True)
 plt.axis('equal')
 ~~~
-![image](https://github.com/user-attachments/assets/5a7d168c-9e81-48e1-bce0-6d905877a8c0)
+![Screenshot 2024-10-23 102042](https://github.com/user-attachments/assets/e98a9499-0190-4264-b275-1c0cefa8abb4)
 
 
 # Result:
