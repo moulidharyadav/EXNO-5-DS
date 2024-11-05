@@ -169,6 +169,5 @@ plt.axis('equal')
 ~~~
 ![Screenshot 2024-10-23 102042](https://github.com/user-attachments/assets/e98a9499-0190-4264-b275-1c0cefa8abb4)
 
-
 # Result:
  Thus Data Visualization using matplot python library for the given datas was executed successfully.
